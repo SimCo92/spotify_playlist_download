@@ -141,3 +141,6 @@ spotify_downloader.log
 .idea/
 *.swp
 *.swo
+
+# MacOs
+.DS_Store
