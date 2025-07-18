@@ -1,0 +1,11 @@
+# Core dependencies
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+spotipy>=2.22.0
+bencodepy>=0.9.5
+
+# HTML parsing
+lxml>=4.9.0
+
+# Optional dependencies for enhanced functionality
+# transmission-remote (install via: brew install transmission-cli)
