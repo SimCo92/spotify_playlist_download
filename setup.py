@@ -1,5 +1,5 @@
 """
-Setup script for Spotify Playlist Downloader
+Setup script for Spotify Torrent Downloader
 """
 
 from setuptools import setup, find_packages
@@ -16,14 +16,14 @@ def read_requirements():
         return [line.strip() for line in f if line.strip() and not line.startswith("#")]
 
 setup(
-    name="spotify-playlist-downloader",
+    name="spotify-torrent-downloader",
     version="1.0.0",
-    author="Spotify Downloader Team",
+    author="Spotify Torrent Downloader Team",
     author_email="contact@example.com",
     description="A tool to download high-quality music from Spotify playlists via torrent sites",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/spotify-playlist-downloader",
+    url="https://github.com/yourusername/spotify-torrent-downloader",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

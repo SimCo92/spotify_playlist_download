@@ -1,4 +1,4 @@
-# Spotify Playlist Downloader
+# Spotify Torrent Downloader
 
 A Python tool to download high-quality music from Spotify playlists via torrent sites with intelligent selective downloading.
 
@@ -30,8 +30,8 @@ brew install transmission-cli
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/spotify-playlist-downloader.git
-cd spotify-playlist-downloader
+git clone https://github.com/yourusername/spotify-torrent-downloader.git
+cd spotify-torrent-downloader
 
 # Install dependencies
 pip install -r requirements.txt
@@ -164,7 +164,7 @@ The tool generates a CSV file with the following columns:
 ## Project Structure
 
 ```
-spotify-playlist-downloader/
+spotify-torrent-downloader/
 ├── spotify_downloader/
 │   ├── __init__.py
 │   ├── cli/
